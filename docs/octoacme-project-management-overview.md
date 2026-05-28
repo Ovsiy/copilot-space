@@ -14,11 +14,17 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM)**: coordinates delivery, schedules, risk, communications.
+- **Product Manager (PdM)**: defines outcomes, prioritizes backlog, and measures success.
+- **Developers**: implement features, collaborate on design and testability.
+- **UX Designer**: conducts user research, creates designs, ensures usability standards.
+- **Business Analyst**: translates requirements, analyzes workflows, ensures traceability.
+- **Technical Writer**: creates and maintains documentation, captures knowledge.
+- **Systems Architect**: designs system architecture, makes technology decisions, provides technical guidance.
+- **QA/Testing**: validates quality and acceptance criteria.
+- **Stakeholders**: provide inputs and approvals.
+
+> **Note**: For detailed persona definitions, responsibilities, goals, and communication patterns, see [OctoAcme Personas](./octoacme-roles-and-personas.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -41,6 +47,15 @@ Applies to all cross-functional projects that deliver product features, services
 - Monthly stakeholder updates
 - Ad-hoc escalations as needed
 
+## Cross-Functional Collaboration
+OctoAcme projects succeed through effective collaboration across all personas:
+- **UX and Product** work together to define user needs and validate solutions
+- **Business Analyst and Developers** ensure requirements are translated into technical solutions
+- **Technical Writer and QA** collaborate to ensure documentation and quality standards align
+- **Systems Architect and Developers** partner on technical design and implementation guidance
+- **Project Manager** facilitates coordination and removes blockers
+
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Reference the Personas document when defining team composition for new projects.
